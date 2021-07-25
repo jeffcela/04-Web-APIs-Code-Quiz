@@ -4,11 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <title>Where in the world?</title>
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <script defer src="assets/js/script.js"></script>
+  <title>Quiz App</title>
 </head>
 <body>
+    <div class="container">
+        <div id="homePage">
+                <h1>How well do you know your colors!</h1>
+                <h2>Awser the multiple choice question in 70 seconds, your score is based on your fastest time. 10 seconds will be subtracted for inccorect answers. <strong>Good Luck!</strong></h2>
+                <button id="startBTN">Start</button>
+                <button id="highBTN">High Score</button>
+        </div>
+        <div id="quizPage">
+            <div id="clock">Remaining Time:</div>
+            <div id="questions">
+                <p>Question Placeholder</p>
+            </div>
+        <button id="1" onclick="checkAnswer('1')">1</button>
+        <button id="2" onclick="checkAnswer('2')">2</button>
+        <button id="3" onclick="checkAnswer('3')">3</button>
+        <button id="4" onclick="checkAnswer('4')">4</button>
+        <div id="results"></div>
+        </div>
 
-  <script src="assets/js/script.js"></script>
+        <div id="gameOver">
+            <div id="totalScore"></div>
+            <input type="text" size="51" placeholder="Enter your name or initials to log your score"
+                name="name" id="name" />
+            <button id="submitScore">Submit Score</button>
+        </div>
+
+        <div id=scoreContainer>
+            <div id="scorePage">
+                <div id="highscoreTitle">
+                    <h3>User Initials</h3>
+                    <h3>Score</h3>
+                </div>
+                <div id="highscore-name"></div>
+                <div id="highscore"></div>
+            </div>
+
+            <div id="endGameBtns">
+                <button id="playAgain" onclick="replayQuiz()">Play Again</button>
+                <button id="clearHighscore" onclick="clearScore()">Clear Scores</button>
+            </div>
+        </div>
+    </div>
+<scrip  href="assets/js/script.js"></scrip>
+
+    
+
 </body>
 </html>
