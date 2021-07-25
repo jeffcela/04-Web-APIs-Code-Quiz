@@ -38,7 +38,7 @@ const quizQuestions = [{
     correctAnswer: "2"
 },
 {
-    question: "What colors is associated with the earth?",
+    question: "What colors are associated with the earth?",
     choice1: "Blue",
     choice2: "Green",
     choice3: "Blue/green",
@@ -49,7 +49,7 @@ const quizQuestions = [{
     question: "Which color is a primary color?",
     choice1: "Yellow",
     choice2: "Green",
-    choice3: "purple",
+    choice3: "Purple",
     choice4: "Orange",
     correctAnswer: "1"
 },
