@@ -1,6 +1,6 @@
 # 04-Web-APIs-Code-Quiz
 
-Create a multiple choice question quiz that scored based on time. The quiz should use html structure, css styles, and javaScript. The quiz should subtract time for inccorect answers and add for correct answers. The quiz should store the scores in local storage for future recall. 
+Create a multiple choice question quiz with a timer. The quiz should use html structure, css styles, and javaScript. The quiz should subtract time for inccorect answers and add for correct answers. The quiz should store the scores in local storage for future recall. 
 
 ## GitHub Links 
 Live Page [Link](https://jeffcela.github.io/04-Web-APIs-Code-Quiz/) <br>
